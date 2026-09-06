@@ -17,25 +17,28 @@ XG-040G-MD 个人使用测试
 移除的软件包大多可以Immortalwrt下载
 
 fork(感谢bingoguo93)
-https://github.com/bingoguo93/OpenWRT-CI-XG-040G-MD
 
-刷机前必须备份所有原厂分区，特别是ri和bosa分区
+[https://github.com/bingoguo93/OpenWRT-CI-XG-040G-MD]
+
+[https://github.com/bingoguo93/immortalwrt.git]
+
+# 固件简要说明
+
+## 刷机前必须备份所有原厂分区，特别是ri和bosa分区
+
+贝尔040G系列，全面升级6.18内核
 
 详细说明
 https://www.right.com.cn/forum/thread-8453612-1-1.html
 
-支持设备： 四个固件通用，设备名称只是区分不同功能 
-
+支持设备： 四个固件通用，设备名称只是区分不同功能
+```
 带USB设备:
   XG-040G-MD  XG-140G-MD(lan4 wan)
 
 不带USB设备: 
   XG-040G-TF  XG-140G-TF(lan4 wan)
-
-https://github.com/bingoguo93/immortalwrt.git
-
-
-# 固件简要说明
+```
 
 固件每天自动编译
 
