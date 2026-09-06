@@ -1,9 +1,27 @@
 # OpenWRT-CI
 
-贝尔040G系列，全面升级6.18内核  
+贝尔040G系列，深度简化版本
+
+## 可能不稳定！建议高级玩家使用
+没有XG-040G-TF测试设备
+XG-040G-TF的刷机包没有经过测试，谨慎使用
+
+移除部分存储支持和管理及其他工具包
+移除手机连接支持
+移除lucky和clash
+移除argon主题,使用openwrt主题
+添加iptables支持
+移除lucky和clash
+测试USB4
+
+移除的软件包大多可以Immortalwrt下载
+
+fork(感谢bingoguo93)
+https://github.com/bingoguo93/OpenWRT-CI-XG-040G-MD
+
 刷机前必须备份所有原厂分区，特别是ri和bosa分区
 
-详细说明  
+详细说明
 https://www.right.com.cn/forum/thread-8453612-1-1.html
 
 支持设备： 四个固件通用，设备名称只是区分不同功能 
@@ -19,7 +37,7 @@ https://github.com/bingoguo93/immortalwrt.git
 
 # 固件简要说明
 
-固件每天早上5点自动编译。
+固件每天自动编译
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
