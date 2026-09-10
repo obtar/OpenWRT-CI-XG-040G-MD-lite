@@ -6,13 +6,14 @@
 XG-040G-MD 个人使用测试
 **其他型号没有经过测试，谨慎使用！**
 
+kmod基本䃼全
 移除部分存储支持和管理及其他工具包
 移除手机连接支持
 移除lucky和clash
 移除argon主题,使用openwrt主题
 添加iptables支持
 移除lucky和clash
-测试USB4
+测试USB3
 
 移除的软件包大多可以Immortalwrt下载
 
@@ -40,7 +41,7 @@ https://www.right.com.cn/forum/thread-8453612-1-1.html
   XG-040G-TF  XG-140G-TF(lan4 wan)
 ```
 
-固件每天自动编译
+固件自动编译
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
